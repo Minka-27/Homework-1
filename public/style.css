@@ -1,0 +1,70 @@
+/* For this styling I'm trying out viewport units 
+as they supposedly help with adjusting content to fit different window sizes*/
+body {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+.myContainer {
+    padding: 2vw;
+    margin: 20vw;
+    border-radius: 1vw;
+    background-color: #6b9080;
+    font-family: sans-serif;
+    color: white;
+    border: 0.5vw solid #003e1f;
+}
+
+.myTitle {
+    text-align: center;
+    background-color: #b0c4b1;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    border: 0.5vw solid #003e1f;
+}
+
+.myInput {
+    background-color: #b0c4b1;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    border: 0.5vw solid #003e1f;
+}
+
+#input1 {
+    margin-top: 2vw ;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+#input2 {
+    margin-bottom: 2vw;
+    padding: 1vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+Button {
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    background-color: #b0c4be;
+    border-radius: 2vw;
+    border: 0.3vw outset;
+    margin-bottom: 2vw;
+}
+
+:disabled {
+    background-color: grey;
+}
+
+.myOutput {
+    background-color: #b0c4b1;
+    border: 0.5vw solid #003e1f;
+    border-radius: 1vw;
+}
