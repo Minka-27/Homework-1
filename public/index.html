@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator</title>
+    <!-- Link to CSS Styling -->
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+    <!-- Sum Calculator -->
+    <div class="myContainer">
+        <div class="myTitle">
+            <h1>Sum Calculator</h1>
+            <p>Enter two numbers to calculate the sum:</p>
+        </div>
+        <!-- Section with fields for input-->
+        <div class="myInput">
+            <label>Number 1:</label>
+            <input id="input1" type="number" onfocus="this.value=''" placeholder="Enter Number Here">
+            <br>
+            <label>Number 2:</label>
+            <input id="input2" type="number" onfocus="this.value=''" placeholder="Enter Number Here">
+            <br>
+            <button id="calcButton" type="submit">Calculate</button>
+            <button id="clearButton" type="submit">Clear</button>
+        </div>
+        <!-- Section for result to be appended via JS -->
+        <div class="myOutput">
+            <p id="myResult">Result: </p>
+        </div>
+    </div>
+    <!-- Link to JS script -->
+    <script src="/public/script.js" defer></script>
+</body>
+
+</html>
