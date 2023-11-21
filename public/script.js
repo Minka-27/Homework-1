@@ -8,8 +8,8 @@ calculateBtn.addEventListener("click", function () {
     console.log('Calculate Button Clicked')
 
     // Casting to Number to prevent value or type errors
-    let num1 = Number(document.getElementById('input1').value)
-    let num2 = Number(document.getElementById('input2').value)
+    let num1 = parseFloat(document.getElementById('input1').value)
+    let num2 = parseFloat(document.getElementById('input2').value)
     // Logic to prevent empty input fields
     if (num1 == "") {
         alert('Please enter the first number')
